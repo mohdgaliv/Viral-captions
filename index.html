@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Content Creators के लिए मुफ्त Viral Caption और Script Generator - Mohd Galiv Gazi द्वारा">
+    <title>Viral Caption & Script Generator | Mohd Galiv Gazi</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-magic"></i>
+                <span>CaptionGen</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">होम</a></li>
+                <li><a href="#tool" class="nav-link">टूल</a></li>
+                <li><a href="#about" class="nav-link">परिचय</a></li>
+                <li><a href="#contact" class="nav-link">संपर्क</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        नमस्ते, मैं <span class="gradient-text">Mohd Galiv Gazi</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        मैं creators की मदद करता हूं <span class="highlight">viral captions और scripts</span> बनाने में जो engagement बढ़ाते हैं और घंटों का काम बचाते हैं।
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#tool" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i> Caption बनाएं
+                        </a>
+                        <a href="#tool" class="btn btn-secondary">
+                            <i class="fas fa-pen-fancy"></i> Script बनाएं
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="myphoto.jpg" alt="Mohd Galiv Gazi - Digital Creator" class="profile-image">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tool Section -->
+    <section class="tool-section" id="tool">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">कुछ ही सेकंड में Viral Content बनाएं</h2>
+                <p class="section-subtitle">अपना टॉपिक डालें और AI का जादू देखें</p>
+            </div>
+
+            <div class="tool-card">
+                <div class="input-group">
+                    <label for="topic-input">
+                        <i class="fas fa-lightbulb"></i> आपका Video/Content टॉपिक
+                    </label>
+                    <input 
+                        type="text" 
+                        id="topic-input" 
+                        placeholder="जैसे: सुबह की दिनचर्या" 
+                        class="input-field"
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="platform-select">
+                        <i class="fas fa-play-circle"></i> प्लेटफॉर्म चुनें
+                    </label>
+                    <select id="platform-select" class="select-field">
+                        <option value="youtube">YouTube</option>
+                        <option value="reels">Instagram Reels</option>
+                        <option value="shorts">YouTube Shorts</option>
+                        <option value="tiktok">TikTok</option>
+                    </select>
+                </div>
+
+                <div class="button-group">
+                    <button class="btn btn-tool" id="generate-caption">
+                        <i class="fas fa-comment-dots"></i> Caption बनाएं
+                    </button>
+                    <button class="btn btn-tool" id="generate-hook">
+                        <i class="fas fa-fish"></i> Hook बनाएं
+                    </button>
+                    <button class="btn btn-tool" id="generate-script">
+                        <i class="fas fa-file-alt"></i> Script बनाएं
+                    </button>
+                    <button class="btn btn-tool" id="generate-tags">
+                        <i class="fas fa-hashtag"></i> Tags बनाएं
+                    </button>
+                </div>
+
+                <div class="output-section" id="output-section">
+                    <div class="output-header">
+                        <h3 id="output-title">आपके Results</h3>
+                        <button class="btn-clear" id="clear-btn">
+                            <i class="fas fa-times"></i> सब Clear करें
+                        </button>
+                    </div>
+                    <div class="output-results" id="output-results">
+                        <!-- Results will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why This Tool Section -->
+    <section class="why-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">इस Tool का उपयोग क्यों करें?</h2>
+                <p class="section-subtitle">एक creator ने creators के लिए बनाया है</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>समय बचाएं</h3>
+                    <p>घंटों की बजाय कुछ सेकंड में कई captions और scripts बनाएं।</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Creator-Focused</h3>
+                    <p>YouTube, Instagram और TikTok creators के लिए खास तौर पर design किया गया।</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3>बहुत आसान</h3>
+                    <p>सिंपल interface जिसे कोई भी इस्तेमाल कर सकता है। कोई technical knowledge जरूरी नहीं।</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>बिल्कुल मुफ्त</h3>
+                    <p>पूरी तरह से मुफ्त tool। कोई hidden charges नहीं, subscription नहीं।</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Creator Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Creator के बारे में</h2>
+                    <p>
+                        नमस्ते! मैं <strong>Mohd Galiv Gazi</strong>, Class 10 का student हूं और मुझे technology और content creation का शौक है।
+                    </p>
+                    <p>
+                        मैं अभी AI, web development और content creation strategies सीख रहा हूं। मैंने यह tool इसलिए बनाया क्योंकि मैं खुद एक creator हूं और मुझे पता है कि engaging captions और scripts बनाना कितना मुश्किल हो सकता है।
+                    </p>
+                    <p>
+                        यह project मेरे coding के प्यार और fellow creators की मदद करने के goal को जोड़ता है। मेरा मानना है कि tools simple, effective और सबके लिए accessible होने चाहिए।
+                    </p>
+                    <p>
+                        चलिए साथ में grow करते हैं! 🚀
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Student</h3>
+                        <p>Class 10</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>सीख रहा हूं</h3>
+                        <p>AI & Web Dev</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-heart"></i>
+                        <h3>Passion</h3>
+                        <p>Creator Tools</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">संपर्क करें</h2>
+                <p class="section-subtitle">आओ connect करें और collaborate करें</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:mohdgaliv@gmail.com">mohdgalivgazi@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+917818899093">+91 7818899093</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>sambhal, India</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <h3>मुझे Follow करें</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.youtube.com/@MohdgalivGazi" target="_blank" class="social-icon">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://www.instagram.com/galiv.tech101?igsh=eW5lN245OWJuNGww" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-icon">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p><i class="fas fa-heart"></i> के साथ बनाया <strong>Mohd Galiv Gazi</strong> द्वारा</p>
+            <p class="footer-credit">Creators को empower करना, एक caption के साथ</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+
+</body>
+</html>
